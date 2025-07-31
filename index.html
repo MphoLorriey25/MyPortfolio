@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mpho Lorraine Ndou | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Floating bubbles container -->
+  <div class="bubbles">
+    <span class="bubble" style="--size: 40px; --left: 10%; --delay: 0s; --duration: 25s;"></span>
+    <span class="bubble" style="--size: 60px; --left: 25%; --delay: 5s; --duration: 30s;"></span>
+    <span class="bubble" style="--size: 50px; --left: 40%; --delay: 3s; --duration: 28s;"></span>
+    <span class="bubble" style="--size: 70px; --left: 60%; --delay: 8s; --duration: 32s;"></span>
+    <span class="bubble" style="--size: 45px; --left: 75%; --delay: 2s; --duration: 26s;"></span>
+    <span class="bubble" style="--size: 55px; --left: 85%; --delay: 6s; --duration: 29s;"></span>
+  </div>
+
+  <main class="container">
+    <header>
+      <img src="assets/profile.jpg" alt="Mpho Lorraine Ndou" class="profile-img floating" />
+      <h1><strong>Mpho Lorraine Ndou</strong></h1>
+      <p class="intro">
+        Passionate Full Stack Developer and Law Student, specializing in modern web technologies, AI integrations, and data visualization. Enthusiastically merging legal expertise with cutting-edge AI to create innovative, impactful digital solutions.
+      </p>
+    </header>
+
+    <section class="section skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <span class="skill-badge">JavaScript</span>
+        <span class="skill-badge">GitHub</span>
+        <span class="skill-badge">Render</span>
+        <span class="skill-badge">Vercel</span>
+        <span class="skill-badge">Streamlit</span>
+        <span class="skill-badge">API Integration</span>
+        <span class="skill-badge">CSS</span>
+        <span class="skill-badge">HTML</span>
+        <span class="skill-badge">React</span>
+        <span class="skill-badge">Node.js</span>
+        <span class="skill-badge">Tailwind CSS</span>
+        <span class="skill-badge learning">Python (learning)</span>
+        <span class="skill-badge soft">Communication</span>
+        <span class="skill-badge soft">Teamwork</span>
+        <span class="skill-badge soft">Problem Solving</span>
+        <span class="skill-badge soft">Adaptability</span>
+      </div>
+    </section>
+
+    <section class="section certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li><a href="https://coursera.org/share/19d8af4901b3a31e8f0b3df9c431358c" target="_blank" class="btn-link">AI For Everyone – Coursera</a></li>
+        <li><a href="https://coursera.org/share/060b670661bb4aa0beb55cb8134d07d9" target="_blank" class="btn-link">Cybersecurity Tools & Attacks – IBM</a></li>
+        <li><a href="https://coursera.org/share/c0c42625e8d928cac8097673118f98f3" target="_blank" class="btn-link">What is Data Science? – IBM</a></li>
+        <li><a href="https://coursera.org/share/99373e98461bed021c5aad1e3cb5ed35" target="_blank" class="btn-link">Intro to AI – IBM</a></li>
+        <li><a href="https://coursera.org/share/5fcb01af578b68885b78e8bd075aa87b" target="_blank" class="btn-link">Python for Data Science – IBM</a></li>
+        <li><a href="https://www.credly.com/badges/8f173a2a-55c7-47a5-af93-62a61723f789/public_url" target="_blank" class="btn-link">IBM Cybersecurity Analyst – Credly</a></li>
+      </ul>
+    </section>
+
+    <section class="section projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card floating">
+          <h3>🧠 LegalEase AI</h3>
+          <p>Simplifies legal documents using AI.</p>
+          <a href="https://github.com/MphoLorriey25/Legal_AI_App.git" target="_blank" class="btn-link">GitHub</a> |
+          <a href="https://legalaiapp-jrnucal5gcey3dswjkh6z8.streamlit.app/" target="_blank" class="btn-link">Live Demo</a>
+        </div>
+        <div class="project-card floating">
+          <h3>🤖 Cohere Chatbot</h3>
+          <p>Responsive AI chatbot using Cohere API.</p>
+          <a href="https://github.com/MphoLorriey25/cohere-chatbot" target="_blank" class="btn-link">GitHub</a> |
+          <a href="https://cohere-chatbot-t4mr.vercel.app/" target="_blank" class="btn-link">Live Demo</a>
+        </div>
+        <div class="project-card floating">
+          <h3>📊 Sentiment Dashboard</h3>
+          <p>Real-time sentiment analysis with live data.</p>
+          <a href="https://github.com/MphoLorriey25/sentiment-dashboard" target="_blank" class="btn-link">GitHub</a> |
+          <a href="https://sentiment-dashboard-jmzufaa88feuna8v6ujtx4.streamlit.app/" target="_blank" class="btn-link">Live Demo</a>
+        </div>
+        <div class="project-card floating">
+          <h3>🎓 LearnMate.ai</h3>
+          <p>AI learning platform with progress tracking.</p>
+          <a href="https://github.com/MphoLorriey25/learnmate.ai" target="_blank" class="btn-link">GitHub</a> |
+          <a href="https://learnmate-ai-1.onrender.com/" target="_blank" class="btn-link">Live Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume-download">
+      <a href="assets/Mpho-Lorraine-Resume.pdf" download class="btn-resume">📄 Download Resume</a>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section contact-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" action="mailto:lorrieym@gmail.com" method="POST" enctype="text/plain" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Your email address" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+
+        <button type="submit" class="btn-resume">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <h2>Connect with Me</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/mpho-lorraine-ndou-64bbba199/" target="_blank" class="btn-link">LinkedIn</a></li>
+        <li><a href="https://github.com/MphoLorriey25" target="_blank" class="btn-link">GitHub</a></li>
+        <li><a href="mailto:lorrieym@gmail.com" class="btn-link">Email</a></li>
+        <li><a href="tel:0763553963" class="btn-link">Phone: 076 355 3963</a></li>
+      </ul>
+      <p>&copy; 2025 Mpho Lorraine Ndou</p>
+    </footer>
+  </main>
+</body>
+</html>
