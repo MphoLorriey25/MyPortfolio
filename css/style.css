@@ -482,24 +482,18 @@ a:focus {
 .cert-item:nth-child(6) { animation-delay: 1.95s; }
 
 .cert-link {
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #5a4d41;
-  text-decoration: none;
-  user-select: text;
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+  font-weight: 500; /* slightly lighter */
+  font-size: 1rem;   /* reduced from 1.1rem */
+  gap: 0.6rem;       /* reduced spacing */
 }
 
 .cert-badge {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(207, 161, 125, 0.3);
-  flex-shrink: 0;
+  width: 26px;       /* reduced from 36px */
+  height: 26px;      /* reduced from 36px */
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(207, 161, 125, 0.25);
 }
+
 
 .cert-link:hover {
   color: #a97450;
